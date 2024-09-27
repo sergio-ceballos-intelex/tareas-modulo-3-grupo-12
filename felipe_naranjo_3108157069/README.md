@@ -37,7 +37,7 @@ if (edad >= 18) {
 } else {
   console.log("Eres menor de edad.");
 }
-Usa el código con precaución.
+
 
 Iterativas:
 JavaScript
@@ -52,7 +52,7 @@ while (contador < 10) {
   console.log(contador);
   contador++;
 }
-Usa el código con precaución.
+
 
 Switch:
 JavaScript
@@ -68,6 +68,6 @@ switch (diaSemana) {
   default:
     console.log("Es otro día de la semana.");
 }
-Usa el código con precaución.
+
 
 En resumen, las estructuras de control son fundamentales en la programación, ya que nos permiten crear programas que tomen decisiones, se repitan y se adapten a diferentes situaciones. En JavaScript, estas estructuras son muy intuitivas y fáciles de utilizar, lo que las convierte en una herramienta poderosa para cualquier desarrollador.
