@@ -5,16 +5,27 @@ Imagina que estás siguiendo una receta de cocina. Hay pasos que debes seguir en
 Son herramientas que nos permiten controlar el flujo de ejecución de un programa. En otras palabras, nos permiten decidir qué instrucciones se ejecutan y en qué orden, según ciertas condiciones. Gracias a ellas, podemos crear programas más complejos y dinámicos.
 
 Tipos de estructuras de control:
+
 Secuenciales: Las instrucciones se ejecutan una tras otra, en el orden en que aparecen en el código. Es el flujo más básico.
+
 Condicionales: Permiten tomar decisiones en función de si se cumple o no una condición. Las más comunes son:
+
 if: Ejecuta un bloque de código si una condición es verdadera.
+
 else: Ejecuta un bloque de código si la condición del if es falsa.
+
 else if: Permite evaluar múltiples condiciones.
+
 Iterativas: Permiten repetir un bloque de código varias veces, mientras se cumpla una condición. Las principales son:
+
 for: Se utiliza cuando se sabe de antemano cuántas veces se va a repetir el bucle.
+
 while: Se utiliza cuando no se sabe de antemano cuántas veces se va a repetir el bucle, y se continúa mientras se cumpla una condición.
+
 do while: Similar al while, pero garantiza que el bloque de código se ejecute al menos una vez.
+
 Estructuras de control en JavaScript
+
 JavaScript, al ser un lenguaje de programación muy versátil, cuenta con todas estas estructuras de control. Veamos algunos ejemplos:
 
 Condicionales:
