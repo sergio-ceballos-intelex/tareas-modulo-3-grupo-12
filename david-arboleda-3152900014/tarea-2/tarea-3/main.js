@@ -1,1 +1,1 @@
-const name= prompt("digita tu nombre")
+console.log("cambio listo")
