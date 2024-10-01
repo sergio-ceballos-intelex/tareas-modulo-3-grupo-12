@@ -1,5 +1,5 @@
 let number = 1;
 
-for (let number = 1; number <= 50; number++) {
+for (let number = 1; number <= 2000; number++) {
   console.log(number);
 }
