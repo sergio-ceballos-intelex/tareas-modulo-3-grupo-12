@@ -1,3 +1,3 @@
 var numero= 1
-for(var number = 1; number <= 50; number++){
+for(var number = 1; number <= 100; number++){
     document.write(`${number} <br>`)}
