@@ -1,3 +1,8 @@
-var numero= 1
-for(var number = 1; number <= 100; number++){
-    document.write(`${number} <br>`)}
+const nuevo = []; 
+for(let i = 1; i <= 100; i++){
+    nuevo.push(i);
+}
+const conteo= String(nuevo)
+document.write(`${conteo}`);
+console.log(conteo.startsWith("1"));
+console.log(typeof(conteo)) 
