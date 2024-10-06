@@ -1,4 +1,4 @@
-# Creación de Tutorial sobre Inicialización, Agregado y Subida de Archivos a GitHub con Git y Markdown
+# Tutorial sobre Inicialización, Agregado y Subida de Archivos a GitHub con Git y Markdown
  
 Controlar y gestionar las diferentes versiones de tus proyectos es importante, ya que garantiza que los cambios se realicen de manera organizada y segura. Git es una herramienta de control de versiones que permite rastrear cada modificación en tu proyecto, ya sea que trabajes solo o en equipo. GitHub proporciona un entorno en línea donde puedes almacenar y compartir estos proyectos, fomentando la colaboración eficiente y el acceso global. 
 
