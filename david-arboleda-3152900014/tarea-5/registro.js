@@ -1,0 +1,10 @@
+const name=String(prompt("Nombre del estudiante"))
+const age=Number(prompt("edad"))
+const promedio=Number(prompt("promedio academico"))
+const regularidad=Boolean(prompt("¿Es o no regular?true/false"))
+const materiasAprobadas= Number(prompt("Materias aprobadas"))
+const becado=Boolean(prompt("¿Tiene beca? true/false"))
+console.log(age<18 ? 'el estudiante es menor de edad y no puede registrarse.': 'registro aprobado');
+console.log(age>=18 && promedio>6 ? 'promedio aceptado':'no cumple.')
+console.log(age>=18 && promedio>=6 && regularidad===true ? 'El estudiante es regular':'el estudiante no cumple con algun requisito.')
+console.log(age>=18 && promedio>=6 && regularidad===true && becado===true ? 'el estudiante cuenta con todos los requisitos':'puede solicitar una beca.')
