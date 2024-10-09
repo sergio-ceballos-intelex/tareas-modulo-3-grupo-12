@@ -26,11 +26,13 @@ Ahora que has iniciado o clonado un repositorio, puedes realizar commits en la v
 Ejemplo:
 
 ![codigo](codigo.PNG)
-
+---
 Después de llevar este ejemplo, en el historial de tu repositorio se mostrará CommitTest.txt y se realizará el seguimiento de las actualizaciones futuras a este archivo.
+
 En este ejemplo se han introducido dos comandos git adicionales: add y commit. Ha sido un ejemplo muy limitado, pero ambos comandos se tratan más en profundidad en las páginas sobre git add y git commit. El comando *git add* se suele usar con la opción --all. Al ejecutar **git add --all**, se añadirán todos los archivos con cambios y sin seguimiento al repositorio y se actualizará el árbol de trabajo.
+
 ---
 ##### Si tienes mas dudas consulta el siguiente video
 
-[![video de git](git.png)](https://www.youtube.com/watch?v=jUlT-zQ-mbk)
+[![video de git](git.PNG)](https://www.youtube.com/watch?v=jUlT-zQ-mbk)
 
