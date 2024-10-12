@@ -28,4 +28,3 @@ console.log(raizCua);
 const numPares = numberArray.filter(number => String(number).startsWith('7') && number % 2 === 0);
 
 console.log(numPares);
-
