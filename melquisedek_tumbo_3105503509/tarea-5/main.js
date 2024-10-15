@@ -41,21 +41,61 @@
 // - Si el estudiante es mayor de 18 años, tiene un promedio igual o mayor a 6, está registrado como regular y tiene una beca, debe mostrarse un 
 // mensaje indicando que el estudiante cumple con todos los requisitos.
 
-const name = "Melquisedek Tumbo";
-const age = 14 ;
-const promedio = 7;
-const esRegular = true ;
-const cantmateriasaprobadas = 4;
-const esBecado = true ;
+// const name = "Melquisedek Tumbo";
+// const age = 14 ;
+// const promedio = 7;
+// const esRegular = true ;
+// const cantmateriasaprobadas = 4;
+// const esBecado = true ;
 
-if( age < 18 ){
-    console.log("Eres menor de edad, no puedes registrarte")
-}else if(age >= 18 && promedio < 6){
-    console.log("No cumple con el promedio minimo requerido")
-}else if(age >=18 && promedio >= 6 && esRegular === false){
-    console.log("Debe registrarse como regular")
-}else if(age >=18 && promedio >= 6 && esRegular === true && esBecado === false){
-    console.log("puede solicitar una beca")
-}else if(age >=18 && promedio >= 6 && esRegular === true && esBecado === true ){
-    console.log("Cumples con todos los requisitos")
-}
+// if( age < 18 ){
+//     console.log("Eres menor de edad, no puedes registrarte")
+// }else if(age >= 18 && promedio < 6){
+//     console.log("No cumple con el promedio minimo requerido")
+// }else if(age >=18 && promedio >= 6 && esRegular === false){
+//     console.log("Debe registrarse como regular")
+// }else if(age >=18 && promedio >= 6 && esRegular === true && esBecado === false){
+//     console.log("puede solicitar una beca")
+// }else if(age >=18 && promedio >= 6 && esRegular === true && esBecado === true ){
+//     console.log("Cumples con todos los requisitos")
+// }
+
+
+
+// 3. Lógica proposicional
+// Resolver los siguientes ejercicios:
+
+// 1. true || true || false && true || false && true && true || false
+// 1.1 true || true||false||false||false
+// 1.2 true
+
+// 2. true && (false || false && (true && (true || false && true))) || false && (true || false)
+// 2.1  true && (false || false && (true && (true || false && true))) || false && true
+// 2.2 true && (false || false && (true && (true || false))) || false && true
+// 2.3 true && (false || false && (true && true)) || false && true
+// 2.4 true && (false || false && true ) || false && true
+// 2.5 true && (false || false) || false && true
+// 2.6 true && false || false && true
+// 2.7 false || false
+// 2.8 false
+
+// 3. !(!true && (false || false && !!!true || (true && !false))) || false && true
+// 3.1 !(!true && (false || false && !!!true || (true && true))) || false && true
+// 3.2 !(!true && (false || false && !!!true || true )) || false && true
+// 3.3 !(!true && (false || false && !!falce || true )) || false && true
+// 3.4 !(!true && (false || false && !true || true )) || false && true
+// 3.5 !(!true && (false || false && falce || true )) || false && true
+// 3.6 !(!true && (false || false || true )) || false && true
+// 3.7 !(!true && true ) || false && true
+// 3.7 !(false && true ) || false && true
+// 3.7 !falce || false && true
+// 3.7 true || false && true
+// 3.7 true || false 
+// 3.7 true
+// Nota: Cada ejercicio se debe resolver paso a paso y dejarlo por escrito hasta dar con el resultado final, tal cual lo vimos en clase.
+
+
+
+console.log(true || true || false && true || false && true && true || false) //true
+console.log(true && (false || false && (true && (true || false && true))) || false && (true || false)) //false
+console.log(!(!true && (false || false && !!!true || (true && !false))) || false && true) //true
