@@ -6,7 +6,7 @@ let numeros = [1, 2, 3, 4, 5];
 let nuevoNumeros = [];
 
 for (let index = 0; index < numeros.length; index++) {
-   nuevoNumeros=numeros[index]*2;
+   nuevoNumeros [index]=numeros[index]*2;
   console.log(nuevoNumeros);
 }
 
