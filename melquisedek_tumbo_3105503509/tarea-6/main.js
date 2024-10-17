@@ -38,6 +38,8 @@
 //   }
 
 //   console.log(propreciomenor) 
+
+// 3.
 // Dado el siguiente array de objetos que representan estudiantes:
 
 // let estudiantes = [
@@ -59,7 +61,7 @@
 
 //     console.log(estudiantes)
 
-
+// 4.
 // Dado el siguiente array de objetos que representan libros:
 
 // let libros = [
@@ -70,19 +72,36 @@
 // Utiliza un bucle for para encontrar todos los libros cuyo título contenga la palabra "El". Luego, imprime estos libros.
 
 
-let libros = [
-      { titulo: "El principito", autor: "Antoine de Saint-Exupéry" },
-      { titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes" },
-      { titulo: "Cien años de soledad", autor: "Gabriel García Márquez" },
-    ];
+// let libros = [
+//       { titulo: "El principito", autor: "Antoine de Saint-Exupéry" },
+//       { titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes" },
+//       { titulo: "Cien años de soledad", autor: "Gabriel García Márquez" },
+//     ];
 
 
-    let librosConEl = [];
+//     let librosConEl = [];
 
-for (i = 0; i < libros.length; i++) {
-  if (libros[i].titulo.startsWith("El ")) { 
-    librosConEl.push(libros[i]);
-  }
+// for (let i = 0; i < libros.length; i++) {
+//   if (libros[i].titulo.startsWith("El ")) { 
+//     librosConEl.push(libros[i]);
+//   }
+// }
+
+// console.log(librosConEl);
+
+
+// 5.
+// Dados los siguientes arrays de frutas:
+
+// let frutas1 = ["Manzana", "Plátano", "Naranja"];
+// let frutas2 = ["Fresa", "Uva", "Piña"];
+// Utiliza un bucle for para concatenar frutas2 al final de frutas1. Luego, imprime el array resultante.
+
+let frutas1 = ["Manzana", "Plátano", "Naranja"];
+let frutas2 = ["Fresa", "Uva", "Piña"];
+
+for (let i = 0; i < frutas2.length; i++) {
+    frutas1.push(frutas2[i]); 
 }
 
-console.log(librosConEl);
+  console.log(frutas1);
