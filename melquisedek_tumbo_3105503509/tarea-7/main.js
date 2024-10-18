@@ -30,22 +30,44 @@
 // Punto 2: Acceso y Modificación Básica de Datos: Crea un array llamado estudiantes que contenga objetos 
 // representando a tres estudiantes. Ejemplo
 
-  const estudiantes = [
-      { nombre: "Camilo", edad: 33, promedio: 10 },
-      { nombre: "Juan", edad: 30, promedio: 6 },
-      { nombre: "Andres", edad: 29, promedio: 8.7 },
- ];
+//   const estudiantes = [
+//       { nombre: "Camilo", edad: 33, promedio: 10 },
+//       { nombre: "Juan", edad: 30, promedio: 6 },
+//       { nombre: "Andres", edad: 29, promedio: 8.7 },
+//  ];
 // Cada objeto debe tener las siguientes propiedades: nombre, edad, y promedio.
 // Imprime en la consola el nombre del segundo estudiante.
-const nametwostudent = estudiantes[1].nombre;
-console.log(nametwostudent);
+// const nametwostudent = estudiantes[1].nombre;
+// console.log(nametwostudent);
 // Actualiza la edad del primer estudiante a 25 años. Imprime en la consola la información completa del primer
 // estudiante después de la actualización.
 
-const newagestudentone = estudiantes[0].edad = 25;
-const ageupdate = estudiantes[0]
+// const newagestudentone = estudiantes[0].edad = 25;
+// const ageupdate = estudiantes[0];
 
-console.log(ageupdate)
+// console.log(ageupdate);
+
+// --------------------------------------------------------------------------------------
+
+// Punto 3: Cálculo de Estadísticas Básicas: Calcula la suma de las edades de todos los estudiantes en el array (puedes utilizar un map o foreach).
+
+const estudiantes = [
+          { nombre: "Camilo", edad: 33, promedio: 10 },
+          { nombre: "Juan", edad: 30, promedio: 6 },
+          { nombre: "Andres", edad: 29, promedio: 8.7 },
+     ];
+
+// Calcula el promedio de edad de los estudiantes.
+let sumatotal = 0;
+const sumapromedio = estudiantes.map(suma => {
+    sumatotal += suma.promedio
+    
+})
+
+const promediototalstudiantes = sumatotal / estudiantes.length
+// Imprime en la consola tanto la suma como el promedio de edad de los estudiantes.
 
 
+console.log(sumatotal)
+console.log(promediototalstudiantes.toFixed(2))
 
