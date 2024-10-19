@@ -7,8 +7,8 @@ let numeros = [1, 2, 3, 4, 5];
 let multiplic = [];
 
 for (let i = 0; i < numeros.length; i++) {
-    numeros[i] = numeros[i] * 2;
-    multiplic.push(numeros[i]);
+    let multipliacion = numeros[i] * 2;
+    multiplic.push(multipliacion);
 }
 
 console.log(multiplic);
@@ -76,10 +76,9 @@ console.log("Libros con el título 'El':", librosEl);
 let frutas1 = ["Manzana", "Plátano", "Naranja"];
 let frutas2 = ["Fresa", "Uva", "Piña"];
 
-let frutasResultante = frutas1;
 
 for (let i = 0; i < frutas2.length; i++) {
-    frutasResultante.push(frutas2[i]);
+    frutas1.push(frutas2[i]);
 }
 
-console.log("Array concatenado:", frutasResultante);
+console.log("Array concatenado:", frutas1);
