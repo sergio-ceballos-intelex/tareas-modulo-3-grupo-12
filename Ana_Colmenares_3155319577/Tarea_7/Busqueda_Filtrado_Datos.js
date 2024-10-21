@@ -63,23 +63,6 @@ const estudiantes = [
     },
   ];
 
-// let estudiantePromedioMayor = estudiantes[0];
-// for (let i = 1; i < estudiantes.length; i++) {
-//     if (estudiantes[i].promedio > estudiantePromedioMayor.promedio) {
-//         estudiantePromedioMayor = estudiantes[i];   
-//     }
-// }
-// console.log("Estudiante con el promedio más alto:");
-// console.log(`Nombre: ${estudiantePromedioMayor.nombre}\nEdad: ${estudiantePromedioMayor.edad}`);
-
-// function 
-// const obtenerEstudiantesConMejorPromedio = (estudiantes) => { 
-//     const promedioMasAlto = Math.max(...estudiantes.map(estudiante => estudiante.promedio)); //operador spread
-//     return estudiantes.filter(est => est.promedio === promedioMasAlto);
-// }
-// const mejoresEstudiantes = obtenerEstudiantesConMejorPromedio(estudiantes);
-//  console.log(mejoresEstudiantes);
-
 const promedioMasAlto = Math.max(...estudiantes.map(estudiante => estudiante.promedio)); //operador spread
 const estudianteMejorPromedio = estudiantes.filter(estudiante => estudiante.promedio === promedioMasAlto)[0];
 console.log(`El estudiante con el promedio más alto es ${estudianteMejorPromedio.nombre}, y tiene ${estudianteMejorPromedio.edad} años.`);
