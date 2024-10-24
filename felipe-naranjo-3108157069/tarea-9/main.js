@@ -118,6 +118,7 @@ function getPlayers(codigoPais){
 
 getSeleccion()
      .then(selecciones => {
+
           const playersPromises = selecciones.map(jugadores => getPlayers(jugadores.codigoPais));
 
           Promise.all(playersPromises)
@@ -125,9 +126,4 @@ getSeleccion()
                .catch(err => console.error('Error', err));
      })
      .catch(err => console.log (err))
-
-
-
-
-
-
+     
